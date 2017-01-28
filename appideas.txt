@@ -1,0 +1,59 @@
+Concept Ideas:
+--------------
+
+NAME: 
+
++=Game Concept:
+
+- Must look simplistic
+- Must be harder with time
+- Ads
+- 3D Platformer
+
+NAME: Black Hole
+
+IDEA:
+- Similar to Temple Run
+- One Course, Different platforms
+- Tilt: Will move the ball on platform, one tube, will move a ball down
+- Strategy game
+- Real Life Physics
+- Platfomrs will progressively get smaller
+- Platform must be extremely sensitive
+- Platform must be controlled, Ball wil be static
+- Two possible items will allow the player to move on
+- Three objects will allow the player to move on to the next room
+- Once the player gets the right amount of keys, the ball will jump
+- The player will control a tilted platorm on a pole, and the platform
+- A Vaccuum
+- If no movement, the platform falls.
+- Every level will increase in:
+	- Sensativity
+	- Keys
+	- Platforms
+	- Holes (past the 10'th platform)
+- Different Shapes (Circle, Square/Rectangle, Triangle)
+- Tilt Mechannism
+- Time Trials?
+- Score Mechanism
+
+- References: ZigZag on the App Store
+
+-=Design
+
+- Space-Themed
+- Black Hole Theme
+
+-=Gameplay
+
+- Score Mechanics
+- Start Button will active tilt mechanic
+- Player must keep the ball still, and move it forward
+- Tilt Forward moves the ball forward
+- If platform is inactive, then the pole strength will decrease with time.
+- Calibration (will be set on phone position)
+- Tap Option: Will push the platform based on corner (if user taps upper-left, platform will tilt down towards upper-left cormer. if released, platform will be set back to 0)
+
+-=In-App Purcahses
+
+- Different colored balls
