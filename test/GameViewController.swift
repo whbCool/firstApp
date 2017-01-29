@@ -11,6 +11,7 @@ import Metal
 import MetalKit
 import CoreMotion
 
+
 let MaxBuffers = 3
 let ConstantBufferSize = 1024*1024
 
@@ -45,7 +46,22 @@ let vertexColorData:[Float] =
 ]
 
 class GameViewController:UIViewController, MTKViewDelegate {
+    //menu design
     
+    //menu image
+    @IBOutlet weak var mainMenuImage_Dynamic: UIImageView!
+    
+    //menu title
+    @IBOutlet weak var gameTitle: UILabel!
+    
+    //menu start
+    @IBAction func startButton(_ sender: Any) {
+    //call all the things here, to be constantly updated
+        
+    }
+    
+    
+    //end of menu design
     var device: MTLDevice! = nil
     
     var commandQueue: MTLCommandQueue! = nil

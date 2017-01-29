@@ -9,25 +9,52 @@
 import Foundation
 import CoreMotion
 
-//class to initiate accelerometer data
-
-class accelerometerData: Operation {
-    //operations for data collection
-    
-    
-}
-
-
-//calls and references
+//core values
 
 let data = CMMotionManager()
-let cmdata = CMAccelerometerData.self
+let dataA = CMAccelerometerData()
+let dataAlive = CMMotionActivity()
+let dataA2 = CMAcceleration()
 
-//functions and operations
+let dataControl = 1
 
-func accelerationFoundation() {
-    //fomr instance of accelerometer data collection
+//updates
+
+var switchOn = data.isAccelerometerAvailable
+var switchActive = data.isAccelerometerActive
+var liveUpdate = data.accelerometerUpdateInterval
+
+var dataMain: CMMotionManager!
+
+var motionTime = data.deviceMotionUpdateInterval
+
+//access
+
+var accData = data.accelerometerData
+var dataMotion = data.deviceMotion
+
+//functions
+
+func dataStart() {
+    data.startAccelerometerUpdates()
+    
+    if let accelerometerData = data.accelerometerData {
+        //place image physics here
+    }
+}
+
+func dataStop() {
+    //this is prior to a reset, upon game start
+    data.stopAccelerometerUpdates()
+}
+//class to initiate accelerometer data
+class accelerometerFoundation: Operation {
+
+    func accelerationFoundation() {
+    //form instance of accelerometer data collection
+        
     //to be fed to: accelerometerControl, mainMenu_imageView_accelerometerShift
     
     
+    }
 }
