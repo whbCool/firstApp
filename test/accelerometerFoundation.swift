@@ -58,3 +58,5 @@ class accelerometerFoundation: Operation {
     
     }
 }
+
+//end of script
