@@ -18,6 +18,7 @@
 		B008AC491E3C63BF007C2EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B008AC471E3C63BF007C2EFE /* LaunchScreen.storyboard */; };
 		B008AC541E3C63BF007C2EFE /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008AC531E3C63BF007C2EFE /* testTests.swift */; };
 		B008AC5F1E3C63BF007C2EFE /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008AC5E1E3C63BF007C2EFE /* testUITests.swift */; };
+		B0453E321E3D5DCB003B19A2 /* accelerometerFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B008AC5A1E3C63BF007C2EFE /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B008AC5E1E3C63BF007C2EFE /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		B008AC601E3C63BF007C2EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accelerometerFoundation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				B008AC3C1E3C63BF007C2EFE /* AppDelegate.swift */,
 				B008AC3E1E3C63BF007C2EFE /* GameViewController.swift */,
+				B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */,
 				B008AC401E3C63BF007C2EFE /* Shaders.metal */,
 				B008AC421E3C63BF007C2EFE /* Main.storyboard */,
 				B008AC451E3C63BF007C2EFE /* Assets.xcassets */,
@@ -287,6 +290,7 @@
 			files = (
 				B008AC411E3C63BF007C2EFE /* Shaders.metal in Sources */,
 				B008AC3F1E3C63BF007C2EFE /* GameViewController.swift in Sources */,
+				B0453E321E3D5DCB003B19A2 /* accelerometerFoundation.swift in Sources */,
 				B008AC3D1E3C63BF007C2EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +542,7 @@
 				B008AC651E3C63BF007C2EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B008AC661E3C63BF007C2EFE /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +551,7 @@
 				B008AC681E3C63BF007C2EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B008AC691E3C63BF007C2EFE /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +560,7 @@
 				B008AC6B1E3C63BF007C2EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
