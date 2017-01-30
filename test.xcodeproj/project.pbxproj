@@ -19,6 +19,7 @@
 		B008AC5F1E3C63BF007C2EFE /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008AC5E1E3C63BF007C2EFE /* testUITests.swift */; };
 		B0357D9A1E3E6F6400232960 /* mainMenuImage_dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0357D991E3E6F6400232960 /* mainMenuImage_dynamic.swift */; };
 		B0453E321E3D5DCB003B19A2 /* accelerometerFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */; };
+		E8AE650A1E3F9F3E0034D196 /* scoreMechanics_base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE65091E3F9F3E0034D196 /* scoreMechanics_base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B008AC601E3C63BF007C2EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0357D991E3E6F6400232960 /* mainMenuImage_dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainMenuImage_dynamic.swift; sourceTree = "<group>"; };
 		B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accelerometerFoundation.swift; sourceTree = "<group>"; };
+		E8AE65091E3F9F3E0034D196 /* scoreMechanics_base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreMechanics_base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +126,7 @@
 			children = (
 				B008AC3C1E3C63BF007C2EFE /* AppDelegate.swift */,
 				B008AC3E1E3C63BF007C2EFE /* GameViewController.swift */,
-				B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */,
+				E88B64531E3FA21D005FCBDE /* Game Mechanics */,
 				B0357D991E3E6F6400232960 /* mainMenuImage_dynamic.swift */,
 				B008AC401E3C63BF007C2EFE /* Shaders.metal */,
 				B008AC421E3C63BF007C2EFE /* Main.storyboard */,
@@ -151,6 +153,15 @@
 				B008AC601E3C63BF007C2EFE /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		E88B64531E3FA21D005FCBDE /* Game Mechanics */ = {
+			isa = PBXGroup;
+			children = (
+				B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */,
+				E8AE65091E3F9F3E0034D196 /* scoreMechanics_base.swift */,
+			);
+			name = "Game Mechanics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 				B008AC3F1E3C63BF007C2EFE /* GameViewController.swift in Sources */,
 				B0453E321E3D5DCB003B19A2 /* accelerometerFoundation.swift in Sources */,
 				B008AC3D1E3C63BF007C2EFE /* AppDelegate.swift in Sources */,
+				E8AE650A1E3F9F3E0034D196 /* scoreMechanics_base.swift in Sources */,
 				B0357D9A1E3E6F6400232960 /* mainMenuImage_dynamic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
