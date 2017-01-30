@@ -127,7 +127,6 @@
 				B008AC3C1E3C63BF007C2EFE /* AppDelegate.swift */,
 				B008AC3E1E3C63BF007C2EFE /* GameViewController.swift */,
 				E88B64531E3FA21D005FCBDE /* Game Mechanics */,
-				B0357D991E3E6F6400232960 /* mainMenuImage_dynamic.swift */,
 				B008AC401E3C63BF007C2EFE /* Shaders.metal */,
 				B008AC421E3C63BF007C2EFE /* Main.storyboard */,
 				B008AC451E3C63BF007C2EFE /* Assets.xcassets */,
@@ -158,6 +157,7 @@
 		E88B64531E3FA21D005FCBDE /* Game Mechanics */ = {
 			isa = PBXGroup;
 			children = (
+				B0357D991E3E6F6400232960 /* mainMenuImage_dynamic.swift */,
 				B0453E311E3D5DCB003B19A2 /* accelerometerFoundation.swift */,
 				E8AE65091E3F9F3E0034D196 /* scoreMechanics_base.swift */,
 			);
