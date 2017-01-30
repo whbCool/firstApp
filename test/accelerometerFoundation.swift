@@ -37,10 +37,6 @@ var dataMotion = data.deviceMotion
 
 func dataStart() {
     data.startAccelerometerUpdates()
-    
-    if let accelerometerData = data.accelerometerData {
-        //place image physics here
-    }
 }
 
 func dataStop() {
